@@ -1,0 +1,16 @@
+-----------open a terminal-------------
+
+=======webhook version
+stripe --version
+exp: stripe version 1.7.13
+
+=======login
+stripe login
+exp: Your pairing code is: 'catchy-exult-adore-shine'
+
+###Then hit enter & login stripe login form shoe to the browser 
+
+###listen to url
+stripe listen --forward-to http://127.0.0.1:8000/api/v1/stripe-payment/stripe-webhooks/
+-----generate a secret key
+EXP: Your webhook signing secret is whsec_400........
